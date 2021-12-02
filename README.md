@@ -8,7 +8,6 @@ The full paper is available at: []().
 A novel bootstrap representation learning method by leveraging the predictable possibility of neighboring slices. At the core of our method are a **simple and straightforward dense self-supervision on the predictions of local representations** and a strategy of **predicting locals based on global context**, which enables stable and reliable supervision for both global and local representation mining among volumes.
 
 ## Procedure
----
 ```Shell
 # Preprocessing: 
 python preprocess.py
@@ -23,7 +22,6 @@ python evaluation.py --config=${CONFIG_NAME} --metric=${METRICS} --seeds=${RANDO
 ```
 
 ## Custom experiments
------
 You can create a definition in <configs/*_cfg.py>, then you can use any of the training commands in the previous section.
 (See the comments in <config.py> for an explanation of each field):
 
@@ -40,7 +38,6 @@ You can create a definition in <configs/*_cfg.py>, then you can use any of the t
 ```
 
 ## Results
----
 | Datasets | #Patients | DICE | Config Name | Weights |
 | :- | :-: | :-: | :- | :- |
 | ACDC | 2 | 0.862 | pt_acdc_2p_config | []() |
@@ -53,7 +50,6 @@ You can create a definition in <configs/*_cfg.py>, then you can use any of the t
 | CAMUS_A4C | 32 | 0.878 | pt_a4c_32p_config | []() |
 
 ## Citation
-----
 if you find this code useful for your research, please cite:
 ```
 @article{

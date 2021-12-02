@@ -72,7 +72,8 @@ mnm_img_augmentor = augmentor.copy({
     'type': 'MnMImageAugmentator',
     'is_RandomBrightness': True,
     'is_RandomContrast': True,
-    'is_RandomGaussianBlur': True,    
+    'is_RandomGaussianBlur': True,   
+    'is_RandomWarp': True， 
 
     'is_RandomFlip': True,
     'is_RandomMirror': True,
@@ -83,7 +84,8 @@ mnm_vol_augmentor = augmentor.copy({
     'type': 'MnMVolumeAugmentator',
     'is_RandomBrightness': True,
     'is_RandomContrast': True,
-    'is_RandomGaussianBlur': True,    
+    'is_RandomGaussianBlur': True,
+    'is_RandomWarp': True,  
 
     'is_RandomFlip': True,
     'is_RandomMirror': True,
