@@ -2,7 +2,7 @@
 ![Ideas](assets/fig_method.png)
 
 Official PyTorch implementation of our method.
-The full paper is available at: []().
+The full paper is available at: [Paper](https://arxiv.org/abs/2106.12153v1).
 
 ## Abstract
 A novel bootstrap representation learning method by leveraging the predictable possibility of neighboring slices. At the core of our method are a **simple and straightforward dense self-supervision on the predictions of local representations** and a strategy of **predicting locals based on global context**, which enables stable and reliable supervision for both global and local representation mining among volumes.
@@ -53,10 +53,11 @@ You can create a definition in <configs/*_cfg.py>, then you can use any of the t
 if you find this code useful for your research, please cite:
 ```
 @article{
-    title={Bootstrap Representation Learning for Segmentation on Medical Volumes and Sequences},
-    author={},
-    year={},
-    booktitle={}
+  title     = {Bootstrap Representation Learning for Segmentation on Medical Volumes and Sequences},
+  author    = {Zejian Chen and Wei Zhuo and Tianfu Wang and Wufeng Xue and Dong Ni},
+  journal   = {CoRR},
+  volume    = {abs/2106.12153},
+  year      = {2021},
 }
 ```
 
