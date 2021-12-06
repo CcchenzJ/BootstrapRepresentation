@@ -38,16 +38,16 @@ You can create a definition in <configs/*_cfg.py>, then you can use any of the t
 ```
 
 ## Results
-| Datasets | #Patients | DICE | Config Name | Weights |
-| :- | :-: | :-: | :- | :- |
-| ACDC | 2 | 0.862 | pt_acdc_2p_config | []() |
-| ACDC | 8 | 0.899 | pt_acdc_8p_config | []() |
-| Prostate | 2 | 0.684 | pt_pst_2p_config | []() |
-| Prostate | 8 | 0.697 | pt_pst_8p_config | []() |
-| CAMUS_A2C | 8 | 0.813 | pt_a2c_8p_config | []() |
-| CAMUS_A2C | 32 | 0.868 | pt_a2c_32p_config | []() |
-| CAMUS_A4C | 8 | 0.832 | pt_a4c_8p_config | []() |
-| CAMUS_A4C | 32 | 0.878 | pt_a4c_32p_config | []() |
+| Datasets | #Patients | DICE | Config Name |
+| :- | :-: | :-: | :- |
+| ACDC | 2 | 0.862 | pt_acdc_2p_config |
+| ACDC | 8 | 0.899 | pt_acdc_8p_config |
+| Prostate | 2 | 0.684 | pt_pst_2p_config |
+| Prostate | 8 | 0.697 | pt_pst_8p_config |
+| CAMUS_A2C | 8 | 0.813 | pt_a2c_8p_config |
+| CAMUS_A2C | 32 | 0.868 | pt_a2c_32p_config |
+| CAMUS_A4C | 8 | 0.832 | pt_a4c_8p_config |
+| CAMUS_A4C | 32 | 0.878 | pt_a4c_32p_config |
 
 ## Citation
 if you find this code useful for your research, please cite:
